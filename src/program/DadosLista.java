@@ -4,7 +4,7 @@ package program;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Dados <T> {
+public class DadosLista <T> {
     private int quantidade;
     private String tipoDeDados;
     

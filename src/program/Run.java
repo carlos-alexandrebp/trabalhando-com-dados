@@ -8,9 +8,9 @@ public class Run {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         Scanner scs = new Scanner(System.in);
-        Dados<String> dadosSTR = new Dados<>();
-        Dados<Integer> dadosINT = new Dados<>();
-        Dados<Double> dadosDOU = new Dados<>();
+        DadosLista<String> dadosSTR = new DadosLista<>();
+        DadosLista<Integer> dadosINT = new DadosLista<>();
+        DadosLista<Double> dadosDOU = new DadosLista<>();
         
         
         System.out.print("Digite o tipo de dados a trabalhar no sistema [Str / Dou / Int ] :");
